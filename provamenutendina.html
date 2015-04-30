@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+     <style>
+        header {text-align: center;}
+        ul li {
+            margin: 0;padding: 0;}
+        body{
+            background-color: coral;
+        }
+
+        #contenitore{
+            text-align: center;
+            min-width: 1000px;
+        }
+
+        li {
+            text-align: center;
+            background-color: aqua;
+            width: 150px;
+            list-style: none;
+            display: inline-block;
+        }
+        #menu  {
+
+        }
+        li ul {
+            display: none;
+
+        }
+        li:hover ul {
+            position: absolute;
+            display: block;
+
+
+        }
+        a {
+            text-decoration:none;
+            display: block;
+        }
+         
+     @media (min-width: 300px) and (max-width: 500px) {
+         header {text-align: left;}
+         ul li {
+             margin: 0;padding: 0;}
+         body{
+             background-color: coral;
+         }
+
+         #contenitore{
+             text-align: center;
+             min-width: 1000px;
+         }
+
+         li {
+             text-align: center;
+             background-color: aqua;
+             width: 150px;
+             list-style: none;
+             display: inline-block;
+         }
+         #menu  {
+
+         }
+         li ul {
+             display: none;
+
+         }
+         li:hover ul {
+             position: absolute;
+             display: block;
+
+
+         }
+         a {
+             text-decoration:none;
+             display: block;
+         }
+     }    
+        
+    </style>
+</head>
+<body>
+    <div id="contenitore">
+        <header>Men&ugrave a tendina</header>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#">Chi siamo</a></li>
+                <li><a href="#">Prodotti</a>
+                    <ul>
+                        <li><a href="#">Bomboniere</a></li>
+                        <li><a href="#">Articoli da regalo</a></li>
+                        <li><a href="#">partecipazione</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contatti</a></li>
+
+            </ul>
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
